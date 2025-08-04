@@ -8,7 +8,6 @@ Este repositorio provee una plantilla lista para comenzar cualquier PWA con **Ma
 #Clonar el repositorio
 git clone https://github.com/DarwinToapanta01/tarea2P3-pwa-boilerplate.git
 
-```bash
 # Instalar dependencias
 npm install
 
