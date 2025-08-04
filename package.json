@@ -1,0 +1,40 @@
+{
+  "name": "pwa-boilerplate",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Plantilla base profesional para desarrollo de Progressive Web Apps con Material Design Lite",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000 --open=/",
+    "serve": "http-server -c-1 -p 8080",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "quality": "npm run lint && npm run format:check",
+    "fix": "npm run lint:fix && npm run format",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pwa",
+    "progressive-web-app",
+    "material-design",
+    "boilerplate",
+    "template",
+    "service-worker"
+  ],
+  "author": "DarwinToapanta01",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DarwinToapanta01/tarea2P3-pwa-boilerplate.git"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "prettier": "^3.6.2"
+  }
+}

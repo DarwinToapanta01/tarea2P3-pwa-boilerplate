@@ -1,0 +1,9 @@
+# Prettier ignore file
+node_modules/
+dist/
+build/
+.git/
+.vscode/
+*.min.js
+*.min.css
+package-lock.json
